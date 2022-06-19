@@ -1,0 +1,31 @@
+{
+  "name": "yd-node-ses-activity-mail",
+  "version": "1.0.0",
+  "description": "AWS SDK activity email operations &amp; automation",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "start:debug": "set NODE_ENV=debug&& node ./test-runner.js",
+    "listTemplates": "set NODE_ENV=debug&& node ./src/ses_listtemplates.js",
+    "getTemplate": "set NODE_ENV=debug&& node ./src/ses_gettemplate.js",
+    "createTemplate": "set NODE_ENV=debug&& node ./src/ses_createtemplate.js",
+    "deleteTemplate": "set NODE_ENV=debug&& node ./src/ses_deletetemplate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andymitchell79/yd-node-ses-activity-mail.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andymitchell79/yd-node-ses-activity-mail/issues"
+  },
+  "homepage": "https://github.com/andymitchell79/yd-node-ses-activity-mail#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^6.2.0",
+    "js-base64": "^2.5.1",
+    "lodash": "^4.17.15",
+    "qs": "^6.6.0"
+  }
+}
